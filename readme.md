@@ -4,6 +4,7 @@ This is a sample script which generates a CMake based C++ project in place. Once
 triggered, it will generate the following structure and delete itself alongside
 this readme file
 
+```
      ╭───────────────╮
 ╭─┬──┤  Your folder  ├─────────────────────────────╮
 │ │  ╰───────────────╯                             │
@@ -17,3 +18,4 @@ this readme file
 │ ├─> CMakeLists.txt                               │
 │ └─> LICENSE                                      │
 ╰──────────────────────────────────────────────────╯
+```
