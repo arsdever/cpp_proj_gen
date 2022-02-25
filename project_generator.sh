@@ -29,7 +29,7 @@ add_test (test_app COMMAND test_app)" > ./test/CMakeLists.txt
 
 echo "add_executable (app main.cpp)
 
-target_include_directories (test_app
+target_include_directories (app
 PUBLIC
 	\${CMAKE_SOURCE_DIR}/include
 )" > ./src/CMakeLists.txt
